@@ -1,7 +1,7 @@
 import React from 'react';
 import projects from './model';
-import './projects-media.sass';
 import './projects.sass';
+import './projects-media.sass';
 
 const Projects = () => {
     return (
