@@ -1,0 +1,39 @@
+.about
+    width: 1500px
+    margin: 0 auto
+    margin-top: 130px
+    margin-bottom: 130px
+    &_title
+        text-align: center
+        font-weight: 700
+        font-size: 50px
+    &_wrap
+        width: 100%
+        margin-top: 100px
+        display: flex
+        justify-content: space-between
+    &_inner-photo
+        width: 400px
+        img
+            width: 100%
+    &_inner-text
+        width: 1000px
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+        p
+            font-size: 25px
+    &_grid
+        width: 100%
+        display: grid
+        grid-template-columns: repeat(3, 1fr)
+        grid-gap: 18px 18px
+        grid-auto-rows: minmax(60px, auto)
+        list-style: none
+        &-item
+            font-size: 25px
+            color: white
+            display: flex
+            justify-content: center
+            align-items: center
+            background: #543925
