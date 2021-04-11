@@ -1,6 +1,7 @@
 import FirstPhoto from '../../assets/images/project_1.jpg';
 import SecondPhoto from '../../assets/images/project_2.jpg';
 import ThirdPhoto from '../../assets/images/project_3.jpg';
+import FourthPhoto from '../../assets/images/project_4.jpg';
 
 const projects = [
     {
@@ -22,6 +23,13 @@ const projects = [
         photo: ThirdPhoto, 
         descr: 'This site is an indicator of the Web-base company. You can also see the advantages of this company on this site, its calling and why it is worth choosing this particular company. I spent one week of my time on this project. Go to see more details.', 
         link: 'https://web-base-shock.000webhostapp.com/', 
+        id: Math.floor(Math.random() * 123445)
+    },
+    {
+        title: 'Selectpad', 
+        photo: FourthPhoto, 
+        descr: 'This project i created for other people, because there are a lot of different situations related to accordions in your website. You dont want to spend your time with that, if you have problems like that, my library only for you. Try to generate your accordion in the official website!',
+        link: 'https://selectpad.netlify.app/', 
         id: Math.floor(Math.random() * 123445)
     },
 ];
