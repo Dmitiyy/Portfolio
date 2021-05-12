@@ -8,7 +8,7 @@ const projects = [
         title: 'Money Heist', 
         photo: FirstPhoto, 
         descr: 'The project was developed based on the series Money Heist. The main idea is a full review of this series, where you can watch the plot, the number of episodes, the rating of these episodes, the actors playing the main roles in this series. Where a person can look at this series from the other side. I spent one week implementing this project.',
-        link: 'http://mon-he.000webhostapp.com/', 
+        link: 'https://dmi-t-d.000webhostapp.com/', 
         id: Math.floor(Math.random() * 123445)
     },
     {
