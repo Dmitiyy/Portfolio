@@ -22,7 +22,7 @@ const projects = [
         title: 'Web-base', 
         photo: ThirdPhoto, 
         descr: 'This site is an indicator of the Web-base company. You can also see the advantages of this company on this site, its calling and why it is worth choosing this particular company. I spent one week of my time on this project. Go to see more details.', 
-        link: 'https://web-base-shock.000webhostapp.com/', 
+        link: 'https://land-rover-d.000webhostapp.com/', 
         id: Math.floor(Math.random() * 123445)
     },
     {
